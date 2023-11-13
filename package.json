@@ -1,0 +1,36 @@
+{
+  "name": "cowrizz",
+  "version": "1.0.0",
+  "description": "cowsay with rizz",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "cowrizz": "lib/bin.js"
+  },
+  "scripts": {
+    "start": "tsup --watch",
+    "build": "tsup",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "Ali Emir Sen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliemir/tsdoc-link-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aliemir/tsdoc-link-check/issues"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/args": "^5.0.3",
+    "@types/node": "^20.9.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "args": "^5.0.3",
+    "cowsay": "^1.5.0"
+  }
+}

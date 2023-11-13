@@ -1,6 +1,6 @@
 {
   "name": "cowrizz",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cowsay with rizz",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -19,10 +19,10 @@
   "author": "Ali Emir Sen",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aliemir/tsdoc-link-check.git"
+    "url": "https://github.com/aliemir/cowrizz.git"
   },
   "bugs": {
-    "url": "https://github.com/aliemir/tsdoc-link-check/issues"
+    "url": "https://github.com/aliemir/cowrizz/issues"
   },
   "license": "ISC",
   "devDependencies": {
